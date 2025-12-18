@@ -1,0 +1,7 @@
+board:
+  name: da14531_dk_pro
+  full_name: DA14531 Development Kit Pro
+  vendor: renesas
+  socs:
+  - name: da14585
+  - name: da14586

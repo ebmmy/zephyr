@@ -1,0 +1,10 @@
+identifier: da14531_dk_pro/da14585
+name: DA14531_DK_PRO
+type: mcu
+arch: arm
+ram: 96
+toolchain:
+  - zephyr
+  - gnuarmemb
+supported:
+vendor: renesas
