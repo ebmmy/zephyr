@@ -1,4 +1,4 @@
-#include <arm/armv6.dtsi>
+#include <arm/armv6-m.dtsi>
 #include <mem.h>
 #include <freq.h>
 
@@ -17,23 +17,23 @@
 	soc {
 		sram1: memory@7fc0000 {
 			compatible = "mmio-sram";
-			reg = <0x7fc0000 DT_SIZE_K(32)>
+			reg = <0x7fc0000 DT_SIZE_K(32)>;
 		};
 		sram2: memory@7fc8000 {
 			compatible = "mmio-sram";
-			reg = <0x7fc8000 DT_SIZE_K(16)>
+			reg = <0x7fc8000 DT_SIZE_K(16)>;
 		};
 		sram3: memory@7fcc000 {
 			compatible = "mmio-sram";
-			reg = <0x7fc0000 DT_SIZE_K(16)>
+			reg = <0x7fcc000 DT_SIZE_K(16)>;
 		};
 		sram4: memory@7fd0000 {
 			compatible = "mmio-sram";
-			reg = <0x7fc0000 DT_SIZE_K(32)>
+			reg = <0x7fd0000 DT_SIZE_K(32)>;
 		};
 	};
 };
 
 &nvic {
-	arm,num-irq-priority-bits = <4>;
+	arm,num-irq-priority-bits = <2>;
 };

@@ -1,9 +1,8 @@
 family:
   - name: renesas_smartbond
     series:
-      - name: da145xx
+      - name: da1458x
         socs:
-          - name: da14531
           - name: da14585
           - name: da14586
       - name: da1469x
